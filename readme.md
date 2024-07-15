@@ -64,9 +64,9 @@ The project is our Finals project where we will put the things we have learned t
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Gallery
+- Progress Bar
 
 ### Technology
 <!-- TODO: List of Technology Used -->
