@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+  }
+
+  body{
+    height: 100dvh;
+    width: 100dvw;
+    background-color: rgb(101, 100, 98);
+  }
+
+  p{
+    font-size: 2.5rem;
+  }
+
+.outerpart{
+    display: flex;
+    flex-direction: row;
+}
+
+  .contactInfo{
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.title{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-family: "Commissioner", sans-serif;
+}
+
+.contactInfo ul{
+    position: relative;
+    font-family: "Commissioner", sans-serif;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 2rem;
+}
+
+.contactInfo ul li span{
+    color: #000000;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.picture{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.me{
+    height: 50dvh;
+    width: 50dvw;
+    object-fit:cover;
+    margin-left: 20px;
+    margin-top: 80px;
+}
